@@ -8,10 +8,10 @@ export function renderizarCatalogo() {
         <img 
             src="./assets/images/${produtoCatalogo.nomeArquivoImagem}" 
             alt="Classic Burger"
-            class="group-hover:scale-110 duration-300 my-3 rounded-lg">
+            class="group-hover:scale-105 duration-300 my-3 rounded-lg">
         <p class="text-sm">${produtoCatalogo.nome}</p>
         <p class="text-sm">R$ ${produtoCatalogo.preco}</p>
-        <button id="adicionar-${produtoCatalogo.id}" class="bg-slate-950 hover:bg-slate-700 text-slate-200"><i class="fa-solid fa-cart-plus"></i></button>
+        <button id="adicionar-${produtoCatalogo.id}" class="bg-[#120201] hover:bg-[#FFA07A] text-slate-200"><i class="fa-solid fa-cart-plus"></i></button>
         </div>`;
     
         document.getElementById('container-produto').innerHTML += cartaoProduto;
